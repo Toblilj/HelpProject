@@ -30,7 +30,8 @@ public class wordsInTest {
         wordsIn testarHej = new wordsIn();
 
         //Värdet som vi får
-        int actual = testarHej.wordCount("hej");
+        //Hämtar ordet som användare skrivit in (user input är i detta fallet simulerat av testfallet)
+        String actual = testarHej.wordCount("hej");
 
         //Värdet vi förväntar oss att få
         String expected = "hej";

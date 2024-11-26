@@ -33,7 +33,7 @@ public class wordsIn {
         return characters;
     }
 
-    public int wordCount(String input) {
+    public String wordCount(String input) {
         //Ökar antal ord
         //Delar på en string där det finns mellanslag
         String[] wordsLength = input.split("\\s+");
@@ -45,7 +45,8 @@ public class wordsIn {
                 longWord = word;
             }
         }
-        return words;
+        //return words;
+        return input;
     }
 
     public boolean checkStop(String input) {
